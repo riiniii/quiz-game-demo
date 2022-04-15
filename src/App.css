@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+/* QUIZ GAME */
+
+.QuizBee{
+  display: flex;
+  flex-direction: column;
+}
+
+.welcomeHeader{
+  border: 2px solid pink;
+}
+
+.playerScoreboardInfo{
+  border: 5px dashed lightblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.playerScoreboardInfo__player{
+  border: 3px solid lightgreen;
+  width:50%;
+  padding: 10px;
+
+}
+
+.playerScoreboardInfo__scoreBoard{
+  border: 3px solid darkgoldenrod;
+  width:50%;
+  padding: 10px;
+}
+
+.questionContainer{
+  border: 5px solid darkolivegreen;
+  padding: 10px;
+}
+
+.questionContainer__answer{
+  border: 5px solid darkred;
+  padding: 10px;
+}
+
+.questionContainer__question{
+  border: 5px solid darkkhaki;
+  padding: 10px;
+}
+
+.score{
+  border: 5px solid lightsalmon;
+  padding: 10px;
+}
+
+.Scoreboard__playerInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.PlayerInfo{
+  margin: 10px 0px; 
+}
+
+.gameInput{
+  border: 4px solid blue;
+  padding: 10px 0px;
+}
